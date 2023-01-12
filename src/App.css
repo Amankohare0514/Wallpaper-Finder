@@ -1,0 +1,235 @@
+.aman{
+     background-color: rgba(30, 243, 144, 0.664);
+     
+}
+.home{
+     display: flex;
+     flex-direction: column;
+     
+}
+.home__header{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 30px;
+     align-items: center;
+}
+.home__headerLeft{
+     display: flex;
+     align-items: center;
+}
+.home__headerLeft p{
+     margin-left: 20px;
+     font-size: 15px;
+}
+.home__headerRight{
+     display: flex;
+     align-items: center;display: flex;
+     align-items: center;
+}
+.home__headerRight p{
+     margin-right: 20px;
+     font-size: 15px;
+}
+.home__body{
+     flex: 1;
+     display: flex;
+     margin-top: 10px;
+     flex-direction: column;
+}
+
+.item{
+     margin-top: 3rem;
+     height: 400px;
+     width: 310px;
+     margin: 5px;
+     box-shadow: 2px 2px 2px black;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.heading{
+     text-align: center;
+     text-shadow: 2px 2px 2px black;
+     font-size: 5rem;
+     color: chocolate;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.searchbar {
+     font-size: 14px;
+     font-family: arial, sans-serif;
+     color: #202124;
+     display: flex;
+     z-index: 3;
+     height: 44px;
+     background: white;
+     border: 1px solid #dfe1e5;
+     box-shadow: none;
+     border-radius: 24px;
+     margin: 0 auto;
+     width: auto;
+     max-width: 224px;
+   }
+   
+   .searchbar:hover {
+     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+     border-color: rgba(223,225,229,0);
+   }
+   
+   .searchbar-wrapper {
+     flex: 1;
+     display: flex;
+     padding: 5px 8px 0 14px;
+   }
+   
+   .searchbar-left {
+     font-size: 14px;
+     font-family: arial, sans-serif;
+     color: #202124;
+     display: flex;
+     align-items: center;
+     padding-right: 13px;
+     margin-top: -5px;
+   }
+   
+   .search-icon-wrapper {
+     margin: auto;
+   }
+   
+   .search-icon {
+     margin-top: 3px;
+     color: #9aa0a6;
+     height: 20px;
+     line-height: 20px;
+     width: 20px;
+   }
+   
+   .searchbar-icon {
+     display: inline-block;
+     fill: currentColor;
+     height: 24px;
+     line-height: 24px;
+     position: relative;
+     width: 24px;
+   }
+   
+   .searchbar-center {
+     display: flex;
+     flex: 1;
+     flex-wrap: wrap;
+   }
+   
+   .searchbar-input-spacer {
+     color: transparent;
+     flex: 100%;
+     white-space: pre;
+     height: 34px;
+     font-size: 16px;
+   }
+   
+   .searchbar-input {
+     background-color: transparent;
+     border: none;
+     margin: 0;
+     padding: 0;
+     color: rgba(0, 0, 0, .87);
+     word-wrap: break-word;
+     outline: none;
+     display: flex;
+     flex: 100%;
+     margin-top: -37px;
+     height: 34px;
+     font-size: 16px;
+     max-width: 100%;
+     width: 100%;
+   }
+   
+   .searchbar-right {
+     display: flex;
+     flex: 0 0 auto;
+     margin-top: -5px;
+     align-items: stretch;
+     flex-direction: row
+   }
+   
+   .searchbar-clear-icon {
+     margin-right: 12px
+   }
+   
+   .voice-search {
+     flex: 1 0 auto;
+     display: flex;
+     cursor: pointer;
+     align-items: center;
+     border: 0;
+     background: transparent;
+     outline: none;
+     padding: 0 8px;
+     width: 2.8em;
+   }
+
+
+   .button1{
+     display: flex;
+     margin-left: 2rem;
+          justify-content: center;
+          align-items: center;
+   }
+   button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
