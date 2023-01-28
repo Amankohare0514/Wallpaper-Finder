@@ -63,9 +63,9 @@
 
 .heading{
      text-align: center;
-     text-shadow: 2px 2px 2px rgb(248, 3, 3);
-     font-size: 5rem;
-     color: rgb(7, 3, 255);
+     text-shadow: 1px 1px 1px rgb(8, 8, 8);
+     font-size: 3rem;
+     color: rgb(48, 45, 236);
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
